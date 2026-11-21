@@ -6,7 +6,7 @@
 /*   By: insantia <insantia@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 10:28:29 by insantia          #+#    #+#             */
-/*   Updated: 2026/11/18 18:01:14 by insantia         ###   ########.fr       */
+/*   Updated: 2026/11/21 11:02:23 by insantia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,6 @@ int	ft_printf(const char *str, ...)
 			else if (str[i] == '%')
 			
 		}
-		else 
-		{
-			write(1, &str[i], 1);
-		}
 		i++;
 	}
-	
 }
